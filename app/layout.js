@@ -1,7 +1,8 @@
-import { Inter } from "next/font/google";
+import { Cormorant_Garamond, Montserrat } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const Cormorant_Garamond = Cormorant_Garamond({ subsets: ["latin"] });
+const Montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Black Pig Catering",
