@@ -25,4 +25,5 @@ html, body {
 
 h1 {
   font-family: var(--font-cormarant-garamond);
+  font-weight: 600;
 }

@@ -2,8 +2,8 @@ import { Cormorant_Garamond, Montserrat } from "next/font/google";
 import "./globals.css";
 
 
-export const cormorantGaramond = Cormorant_Garamond({ subsets: ["latin"], variable: '--font-cormarant-garamond' });
-export const montserrat = Montserrat({ subsets: ["latin"], variable: '--font-montserrat' });
+export const cormorantGaramond = Cormorant_Garamond({ subsets: ["latin"], variable: '--font-cormarant-garamond', weight: '600'});
+export const montserrat = Montserrat({ subsets: ["latin"], variable: '--font-montserrat', weight: '400' });
 
 export const metadata = {
   title: "Black Pig Catering",
