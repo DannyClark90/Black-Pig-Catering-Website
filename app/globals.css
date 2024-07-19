@@ -14,12 +14,15 @@
   --colour-primary-grey: #F4F6F4;
   --colour-secondary-white: #FFFFFF;
   --colour-secondary-black: #131313;
-  --body-font: "Montserrat", sans-serif;
-  --header-font: "Cormorant_Garamond", serif;
 }
 
-body {
+html, body {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.7;
+  font-family: var(--font-montserrat);
+}
+
+h1 {
+  font-family: var(--font-cormarant-garamond);
 }

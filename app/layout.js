@@ -1,8 +1,9 @@
 import { Cormorant_Garamond, Montserrat } from "next/font/google";
 import "./globals.css";
 
-const Cormorant_Garamond = Cormorant_Garamond({ subsets: ["latin"] });
-const Montserrat = Montserrat({ subsets: ["latin"] });
+
+export const cormorantGaramond = Cormorant_Garamond({ subsets: ["latin"], variable: '--font-cormarant-garamond' });
+export const montserrat = Montserrat({ subsets: ["latin"], variable: '--font-montserrat' });
 
 export const metadata = {
   title: "Black Pig Catering",
@@ -12,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${cormorantGaramond.variable} ${montserrat.variable}`}>{children}</body>
     </html>
   );
 }
