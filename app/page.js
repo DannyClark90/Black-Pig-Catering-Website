@@ -20,9 +20,8 @@ export default function Home() {
             sizes="(max-width: 1400px) 35vw, 16.8vw"
           />
         </div>
-        <div className={styles.button}>
-          <Button text={"Enter"} />
-        </div> 
+        
+          <Button text={"Enter"}/>
       </div>
 
       <div className={styles["logo-container"]}>
