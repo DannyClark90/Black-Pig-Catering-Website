@@ -1,0 +1,34 @@
+.btn {
+    display: flex;
+    padding: .2rem 2.2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.7rem;
+    background: var(--colour-primary-gold);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-style: none;
+    cursor: pointer;
+    height: auto;
+    width: auto;
+    color: var(--colour-secondary-black);
+}
+
+.btn :hover {
+    transform: translateY(-3px);
+}
+
+.btn :focus,
+.btn :active {
+    transform: translateY(-1px);
+}
+
+.btn::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
+  
+  .btn:link,
+  .btn-green:visited {
+    text-decoration: none;
+    border-style: none;
+  }

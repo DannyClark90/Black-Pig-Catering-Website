@@ -9,6 +9,8 @@
 :root {
   font-size: 62.5%;
   box-sizing: border-box;
+
+  /* colours */
   --colour-primary-blue: #16202E;
   --colour-primary-gold: #A8936D;
   --colour-primary-grey: #F4F6F4;
@@ -26,4 +28,21 @@ html, body {
 h1 {
   font-family: var(--font-cormarant-garamond);
   font-weight: 600;
+  font-size: 10rem;
+}
+
+h2 {
+  font-family: var(--font-cormarant-garamond);
+  font-weight: 600;
+  font-size: 3.4rem;
+}
+
+@media all and (max-width: 640px) {
+  h1 {
+    font-size: 4rem;
+  }  
+  
+  h2 {
+      font-size: 2.4rem;
+    }
 }
