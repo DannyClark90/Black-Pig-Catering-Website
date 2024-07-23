@@ -4,7 +4,7 @@ import styles from "@/css/section.module.css";
 import { useState } from "react";
 import Section_Image from "./Section_Image";
 
-export default function Section({ index, title, body }) {
+export default function Section({ index, title, body, image }) {
   const [alignment, setAlignment] = useState("");
 
   useEffect(() => {
@@ -18,7 +18,7 @@ export default function Section({ index, title, body }) {
   return (
     <section className={styles[alignment]}>
       <Section_Image
-        src={"/Assets/Restaurant_Shots/1.webp"}
+        src={image}
         alt={
           "Restaurant at night with festoon lights outside and a glowing firepit in the foreground."
         }

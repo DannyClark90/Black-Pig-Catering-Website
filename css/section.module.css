@@ -1,5 +1,5 @@
 .section__container--left-aligned {
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -12,14 +12,15 @@
 }
 
 .section__container--right-aligned {
-  position: absolute;
+  position: relative;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
   align-items: center;
   gap: 2.625rem;
   width: 100vw;
   height: fit-content;
+  padding-left: 6%;
   background-color: var(--colour-primary-grey);
 }
 
@@ -35,11 +36,13 @@
   .section__container--left-aligned {
     flex-direction: column;
     padding: 0;
+    padding-bottom: 3vh;
   }
   
   .section__container--right-aligned {
     flex-direction: column;
     padding: 0;
+    padding-bottom: 3vh;
   }
 
   .section__content {

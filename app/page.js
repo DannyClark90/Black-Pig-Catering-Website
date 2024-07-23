@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../css/page.module.css";
+import styles from "../css/landing-page.module.css";
 import bpCateringLogo from "@/public/Assets/BP_catering_logo.svg";
 import bpCafeLogo from "@/public/Assets/BP_cafe_logo.svg";
 import Button from "@/Components/Button";

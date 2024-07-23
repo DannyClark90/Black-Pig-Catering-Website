@@ -1,10 +1,10 @@
 .header__container {
   position: relative;
   display: flex;
+  flex-direction: column;
   height: fit-content;
   width: 100vw;
   padding: 6.75rem 27.4375rem;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 4.6875rem;
@@ -42,5 +42,7 @@
 }
 
 @media all and (max-width: 640px) {
-  
+  .header__container {
+    padding: 3rem 0;
+  }
 }
