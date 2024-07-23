@@ -17,7 +17,7 @@ export default function Home() {
             alt="Back Pig Catering Logo"
             src={bpCateringLogo}
             priority={true}
-            fill={true}
+            fill
             sizes="(max-width: 1400px) 35vw, 16.8vw"
           />
         </div>
@@ -31,7 +31,7 @@ export default function Home() {
             alt="Back Pig Cafe Logo"
             src={bpCafeLogo}
             priority={true}
-            fill={true}
+            fill
             sizes="(max-width: 1400px) 35vw, 23.1vw"
           />
         </div>

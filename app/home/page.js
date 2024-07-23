@@ -1,8 +1,8 @@
-import Header from "@/Components/Header"
+import Header from "@/Components/Home_Header"
 
 export default function page() {
   return (
-    <main className={styles["header-container"]}>
+    <main>
         <Header/>
     </main>
   )

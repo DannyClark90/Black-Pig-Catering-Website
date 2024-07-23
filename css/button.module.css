@@ -6,6 +6,7 @@
     border-style: none;
     cursor: pointer;
     width: fit-content;
+    height: fit-content;
     color: var(--colour-secondary-black);
 }
 
