@@ -1,0 +1,9 @@
+.header-container {
+  display: flex;
+  height: fit-content;
+  padding: 6.75rem 27.4375rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4.6875rem;
+}

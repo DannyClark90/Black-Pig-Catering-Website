@@ -3,6 +3,7 @@ import styles from "../css/page.module.css";
 import bpCateringLogo from "../Assets/BP_catering_logo.svg";
 import bpCafeLogo from "../Assets/BP_cafe_logo.svg";
 import Button from "@/Components/Button";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -34,7 +35,9 @@ export default function Home() {
             sizes="(max-width: 1400px) 35vw, 23.1vw"
           />
         </div>
-        <Button text={"Enter"} /> 
+        <Link href={"/home"}>
+        <Button text={"Enter"} />
+        </Link>
       </div>
 
       </div>
