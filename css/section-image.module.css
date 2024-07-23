@@ -1,0 +1,13 @@
+.section-image__container {
+    position: relative;
+    display: flex;
+    height: 54vh;
+    width: 44vw;
+}
+
+@media all and (max-width: 640px) {
+    .section-image__container {
+        height: 100vw;
+        width: 100vw;
+    }
+  }

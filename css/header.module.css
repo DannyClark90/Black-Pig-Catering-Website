@@ -40,3 +40,7 @@
   width: 100vw;
   height: fit-content;
 }
+
+@media all and (max-width: 640px) {
+  
+}

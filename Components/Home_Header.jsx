@@ -1,7 +1,7 @@
 import styles from "../css/header.module.css";
 import Image from "next/image";
-import logo from "@/Assets/BP_cafe_logo.svg";
-import heroImage from "@/Assets/Private_Hire/6.webp"
+import logo from "/public/Assets/BP_cafe_logo.svg";
+import heroImage from "/public/Assets/Private_Hire/6.webp"
 import Button from "./Button";
 
 export default function Home_Header() {
