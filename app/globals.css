@@ -23,6 +23,7 @@ html, body {
   font-size: 1.6rem;
   line-height: 1.7;
   font-family: var(--font-montserrat);
+  overflow-x: hidden;
 }
 
 h1 {
@@ -40,7 +41,7 @@ h2 {
 h3 {
   font-family: var(--font-cormarant-garamond);
   font-weight: 600;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
 }
 
 a {
