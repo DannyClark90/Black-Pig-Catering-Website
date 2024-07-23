@@ -1,6 +1,6 @@
 import { Cormorant_Garamond, Montserrat } from "next/font/google";
 import "../globals.css";
-import Navbar from "@/Components/Navbar";
+import Navbar from "@/Components/Navbar/Navbar";
 
 
 export const cormorantGaramond = Cormorant_Garamond({ subsets: ["latin"], variable: '--font-cormarant-garamond', weight: '600'});
