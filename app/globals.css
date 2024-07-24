@@ -16,6 +16,8 @@
   --colour-primary-grey: #F4F6F4;
   --colour-secondary-white: #FFFFFF;
   --colour-secondary-black: #131313;
+
+  --swiper-pagination-color: var(--colour-primary-blue);
 }
 
 html, body {

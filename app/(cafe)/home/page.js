@@ -1,3 +1,5 @@
+import Eat_And_Drink from "@/Components/Eat_And_Drink";
+import Gallery from "@/Components/Gallery";
 import Header from "@/Components/Home_Header";
 import Section from "@/Components/Section";
 
@@ -18,6 +20,8 @@ export default function page() {
         body={`${"With Spacious seating and drinking bowls available, the farm cafe is the perfect spot for you and your furry friend to relax and enjoy."}`}
         image={"/Assets/Restaurant_Shots/2.webp"}
       />
+
+      <Eat_And_Drink/>
     </main>
   );
 }
