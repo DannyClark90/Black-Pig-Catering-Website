@@ -23,7 +23,6 @@ html, body {
   font-size: 1.6rem;
   line-height: 1.7;
   font-family: var(--font-montserrat);
-  overflow-x: hidden;
 }
 
 h1 {

@@ -78,7 +78,7 @@ export default function Navbar() {
         }
       </div>
 
-      <MobileNav navLinks={navLinks} isOpen={isOpen}/>
+      <MobileNav navLinks={navLinks} isOpen={isOpen} toggleNav={toggleNav}/>
     </nav>
   );
 }
