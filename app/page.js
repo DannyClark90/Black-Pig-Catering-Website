@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "@/css/landing-page.module.css";
 import bpCateringLogo from "@/public/Assets/BP_catering_logo.svg";
+import heroImage from "@/public/Assets/Home_Hero_Image.webp";
 import bpCafeLogo from "@/public/Assets/BP_cafe_logo.svg";
 import Button from "@/Components/Button";
 import Link from "next/link";
@@ -8,6 +9,19 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className={styles.main}>
+       <div className={styles["hero__gradient"]}>
+      </div>
+      <div className={styles.hero}>
+        <Image
+        alt="Long table dressed & set for large group."
+        src={heroImage}
+        fill
+        objectFit="cover"
+        priority={true}
+        placeholder="blur" 
+        sizes="(max-width: 1400px) 100vh, 100vw"
+        />
+        </div>
 
       <div className={styles["content-container"]}>
       
