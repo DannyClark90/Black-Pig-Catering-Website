@@ -56,9 +56,11 @@ export default function Navbar() {
     <nav className={styles["navbar"]}>
       
       <div className={styles["navbar__contents"]}>
+        <Link href={"/home"}>
         <div className={styles["navbar__logo"]}>
           <Image alt="Gold Black Pig Cafe Logo" src={logo} fill />
         </div>
+        </Link>
         <ul className={styles["navbar__links"]}>
           {navLinks.map((link) => {
             return (
